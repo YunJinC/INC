@@ -9,9 +9,9 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@ComponentScan({"com.example.demo"})
-@EntityScan("com.example.demo")
-@EnableJpaRepositories("com.example.demo")
+//@ComponentScan({"com.example.demo"})
+//@EntityScan("com.example.demo")
+//@EnableJpaRepositories("com.example.demo")
 public class DemoApplication extends SpringBootServletInitializer{
 
 	public static void main(String[] args) {
